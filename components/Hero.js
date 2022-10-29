@@ -3,21 +3,21 @@ import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
 const Hero = ({
   listUser = [
-    {
-      name: "GBs Stored",
-      number: "10",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
-    },
-    {
-      name: "Objects",
-      number: "1k",
-      icon: "/assets/Icon/bx_bxs-server.svg",
-    },
-    {
-      name: "Regions",
-      number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
-    },
+    // {
+    //   name: "GBs Stored",
+    //   number: "10",
+    //   icon: "/assets/Icon/heroicons_sm-user.svg",
+    // },
+    // {
+    //   name: "Objects",
+    //   number: "1k",
+    //   icon: "/assets/Icon/bx_bxs-server.svg",
+    // },
+    // {
+    //   name: "Regions",
+    //   number: "20",
+    //   icon: "/assets/Icon/gridicons_location.svg",
+    // },
   ],
 }) => {
   return (

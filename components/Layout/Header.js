@@ -21,7 +21,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <h1 class="text-2xl">Robin V Inventory Tool</h1>
+            <h1 className="text-2xl">Robin V Inventory Tool</h1>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black  items-center">
             <LinkScroll
