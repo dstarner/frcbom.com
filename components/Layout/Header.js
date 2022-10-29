@@ -99,7 +99,7 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline href="https://app.frcbom.com">
+            <ButtonOutline href="https://app.robinv.app">
               Dashboard
             </ButtonOutline>
           </div>

@@ -190,7 +190,7 @@ const Pricing = () => {
                 </h5>
                 <p>Create an account &amp; create your first bucket.</p>
               </div>
-              <ButtonPrimary href="https://app.frcbom.com">
+              <ButtonPrimary href="https://app.robinv.app">
                 Get Started
               </ButtonPrimary>
             </div>

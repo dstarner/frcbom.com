@@ -22,7 +22,7 @@ class MyDocument extends Document {
 
           <meta
             property="og:title"
-            content="FRC BoM - Robotics Inventory Management"
+            content="Robin V - Robotics Inventory Management"
           />
           <meta
             property="og:description"

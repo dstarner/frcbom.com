@@ -8,7 +8,7 @@ const linkGroups = [
     title: "Product",
     links: [
       { text: "Marketing Home", href: "https://obsaased.com" },
-      { text: "Dashboard", href: "https://app.frcbom.com" },
+      { text: "Dashboard", href: "https://app.robinv.app" },
     ],
   },
 ];
@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <img className="h-8 w-auto mb-6" src="/assets/logo-horizontal.png" />
           <p className="mb-4">
-            <strong className="font-medium">frcbom.com</strong> manages your
+            <strong className="font-medium">robinv.app</strong> manages your
             FIRST Robotics teams' parts inventory easily.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
@@ -40,7 +40,7 @@ const Footer = () => {
             </div> */}
           </div>
           <p className="text-gray-400">
-            ©{new Date().getFullYear()} frcbom.com.
+            ©{new Date().getFullYear()} robinv.app.
           </p>
           <p className="text-gray-400">
             Web illustrations by <a href="https://storyset.com/web">Storyset</a>

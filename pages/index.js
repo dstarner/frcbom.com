@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>FRC BoM - Robotics Inventory Management</title>
+        <title>Robin V - Robotics Inventory Management</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

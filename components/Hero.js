@@ -32,7 +32,7 @@ const Hero = ({
           <p className="text-black mt-4 mb-6">
             Easily manage your team&apos;s inventory &amp; Bill of Materials.
           </p>
-          <ButtonPrimary href="https://app.frcbom.com">
+          <ButtonPrimary href="https://app.robinv.app">
             Get Started
           </ButtonPrimary>
         </div>
@@ -40,7 +40,7 @@ const Hero = ({
           <div className="h-full w-full">
             <Image
               src="/img/landing-hero.svg"
-              alt="FRC BoM"
+              alt="Robin V"
               quality={100}
               width={600}
               height={345}
