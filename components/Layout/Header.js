@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
@@ -22,7 +21,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <img className="h-8 w-auto" src="/assets/logo-horizontal.png" />
+            <h1 class="text-2xl">Robin V Inventory Tool</h1>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black  items-center">
             <LinkScroll
@@ -60,42 +59,6 @@ const Header = () => {
               }
             >
               Feature
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="pricing"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("pricing");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "pricing"
-                  ? " text-indigo-500 animation-active "
-                  : " text-black hover:text-indigo-500 ")
-              }
-            >
-              Pricing
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="testimoni"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("testimoni");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
-                  ? " text-indigo-500 animation-active "
-                  : " text-black hover:text-indigo-500 ")
-              }
-            >
-              Testimonial
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">

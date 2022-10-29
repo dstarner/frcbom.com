@@ -7,7 +7,7 @@ const linkGroups = [
   {
     title: "Product",
     links: [
-      { text: "Marketing Home", href: "https://robinv.app" },
+      { text: "Home", href: "https://robinv.app" },
       { text: "Dashboard", href: "https://app.robinv.app" },
     ],
   },
@@ -20,10 +20,11 @@ const Footer = () => {
     <div className="bg-white-300 pt-44 pb-24">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <img className="h-8 w-auto mb-6" src="/assets/logo-horizontal.png" />
+          <h3 className="text-2xl">Robin V Inventory Tool</h3>
+          {/* <img className="h-8 w-auto mb-6" src="/assets/logo-horizontal.png" /> */}
           <p className="mb-4">
-            <strong className="font-medium">robinv.app</strong> manages your
-            FIRST Robotics teams' parts inventory easily.
+            <strong className="font-medium">Robin V</strong> manages your FIRST
+            Robotics teams' parts inventory easily.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             {/* <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
