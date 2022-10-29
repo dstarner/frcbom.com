@@ -39,8 +39,8 @@ const Hero = ({
         <div className="flex w-full">
           <div className="h-full w-full">
             <Image
-              src="/assets/landing-hero.png"
-              alt="VPN Illustrasi"
+              src="/img/landing-hero.svg"
+              alt="FRC BoM"
               quality={100}
               width={600}
               height={345}

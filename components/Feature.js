@@ -11,7 +11,7 @@ const Feature = () => {
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
             <Image
-              src="/assets/Illustration2.png"
+              src="/img/feature-img.svg"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
@@ -25,27 +25,25 @@ const Feature = () => {
             style={{ width: "100%" }}
             className="text-3xl width-[110%] lg:text-4xl font-medium leading-relaxed text-black-600"
           >
-            Storage Should be Easy
+            Inventory Management Should be Easy
           </h3>
           <p className="my-2 text-black">
-            Reduce the toil on your engineers, cut your monthly operating costs,
-            and let ObSaaSed handle the storage for you.
+            FIRST Robotics teams have enough on their plate as-is! Inventory
+            management should be easier to know what's in the shop, what's on
+            the robot, and what is still needed.
           </p>
           <ul className="text-black self-start list-inside ml-8">
             <li className="relative circle-check custom-list">
-              S3-compatible object store with custimizable permissions, access,
-              and visibility.
+              Per-project, per-robot, and team-wide inventory management.
             </li>
             <li className="relative circle-check custom-list">
-              Easier than managing AWS accounts or Object Storage clusters
-              yourself.
+              Team inventory wishlist.
             </li>
             <li className="relative circle-check custom-list">
-              Simple design, simple interface, and simple integrations make
-              deployment faster.
+              Common supplier parts information and tracking.
             </li>
             <li className="relative circle-check custom-list">
-              Cheaper than fully-featured competitors.
+              Inventory usage logs; critical for components like batteries.
             </li>
           </ul>
         </div>
