@@ -17,20 +17,20 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="ObSaaSed provides Object Storage in a seamless and friendly manner."
+            content="Manage your FIRST Robotics teams' parts inventory easily."
           />
 
           <meta
             property="og:title"
-            content="ObSaaSed - Object Storage as a Service"
+            content="FRC BoM - Robotics Inventory Management"
           />
           <meta
             property="og:description"
-            content="ObSaaSed provides Object Storage in a seamless and friendly manner."
+            content="Manage your FIRST Robotics teams' parts inventory easily."
           />
           <meta
             property="og:image"
-            content="https://www.obsaased.com/assets/open-graph-bg.png"
+            content="https://og-image.vercel.app/FRC%20Inventory%3Cbr%20%2F%3EManagement.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-white.svg"
           />
         </Head>
         <body>

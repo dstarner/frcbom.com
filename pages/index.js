@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ObSaaSed - Object Storage as a Service</title>
+        <title>FRC BoM - Robotics Inventory Management</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <Layout>

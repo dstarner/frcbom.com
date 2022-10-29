@@ -22,8 +22,8 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <img className="h-8 w-auto mb-6" src="/assets/logo-horizontal.png" />
           <p className="mb-4">
-            <strong className="font-medium">ObSaaSed</strong> provides Object
-            Storage in a seamless and friendly manner.
+            <strong className="font-medium">frcbom.com</strong> manages your
+            FIRST Robotics teams' parts inventory easily.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             {/* <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -39,7 +39,9 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div> */}
           </div>
-          <p className="text-gray-400">©{new Date().getFullYear()} ObSaaSed.</p>
+          <p className="text-gray-400">
+            ©{new Date().getFullYear()} frcbom.com.
+          </p>
           <p className="text-gray-400">
             Web illustrations by <a href="https://storyset.com/web">Storyset</a>
           </p>
