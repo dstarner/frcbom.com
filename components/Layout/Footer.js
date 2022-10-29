@@ -7,7 +7,7 @@ const linkGroups = [
   {
     title: "Product",
     links: [
-      { text: "Marketing Home", href: "https://obsaased.com" },
+      { text: "Marketing Home", href: "https://robinv.app" },
       { text: "Dashboard", href: "https://app.robinv.app" },
     ],
   },
@@ -29,12 +29,12 @@ const Footer = () => {
             {/* <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
             </div> */}
-            <a
+            {/* <a
               href="https://twitter.com/ObsaasedTech"
               className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md"
             >
               <Twitter className="h-6 w-6" />
-            </a>
+            </a> */}
             {/* <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
             </div> */}
