@@ -26,16 +26,16 @@ const Footer = () => {
             FIRST Robotics teams' parts inventory easily.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            {/* <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            {/* <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
             </div> */}
             <a
               href="https://twitter.com/ObsaasedTech"
-              className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md"
+              className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md"
             >
               <Twitter className="h-6 w-6" />
             </a>
-            {/* <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            {/* <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
             </div> */}
           </div>
@@ -56,10 +56,10 @@ const Footer = () => {
             <p className="text-black-600 mb-4 font-medium text-lg">
               {lg.title}
             </p>
-            <ul className="text-black-500 ">
+            <ul className="text-black ">
               {lg.links.map((link, lIdx) => (
                 <a key={lIdx} href={link.href}>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-indigo-500 cursor-pointer transition-all">
                     {link.text}{" "}
                   </li>
                 </a>

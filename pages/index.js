@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>FRC BoM - Robotics Inventory Management</title>
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <Hero />

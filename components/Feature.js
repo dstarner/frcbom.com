@@ -27,11 +27,11 @@ const Feature = () => {
           >
             Storage Should be Easy
           </h3>
-          <p className="my-2 text-black-500">
+          <p className="my-2 text-black">
             Reduce the toil on your engineers, cut your monthly operating costs,
             and let ObSaaSed handle the storage for you.
           </p>
-          <ul className="text-black-500 self-start list-inside ml-8">
+          <ul className="text-black self-start list-inside ml-8">
             <li className="relative circle-check custom-list">
               S3-compatible object store with custimizable permissions, access,
               and visibility.
